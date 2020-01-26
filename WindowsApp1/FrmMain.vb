@@ -48,4 +48,12 @@
 		FrmNQueen.MdiParent = Me
 		FrmNQueen.Show()
 	End Sub
+
+	Private Sub BacktrackingMapColoringToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BacktrackingMapColoringToolStripMenuItem.Click
+
+		Dim FrmMapColoring = New FrmMColoring()
+		FrmMColoring.MdiParent = Me
+		FrmMColoring.Show()
+
+	End Sub
 End Class

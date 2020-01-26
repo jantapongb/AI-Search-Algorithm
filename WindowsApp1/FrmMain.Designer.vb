@@ -32,6 +32,7 @@ Partial Class FrmMain
         Me.CSPToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BacktrackingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BacktrackingNQueenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BacktrackingMapColoringToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -84,7 +85,7 @@ Partial Class FrmMain
         '
         'CSPToolStripMenuItem
         '
-        Me.CSPToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BacktrackingToolStripMenuItem, Me.BacktrackingNQueenToolStripMenuItem})
+        Me.CSPToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BacktrackingToolStripMenuItem, Me.BacktrackingNQueenToolStripMenuItem, Me.BacktrackingMapColoringToolStripMenuItem})
         Me.CSPToolStripMenuItem.Name = "CSPToolStripMenuItem"
         Me.CSPToolStripMenuItem.Size = New System.Drawing.Size(250, 26)
         Me.CSPToolStripMenuItem.Text = "CSP"
@@ -92,14 +93,20 @@ Partial Class FrmMain
         'BacktrackingToolStripMenuItem
         '
         Me.BacktrackingToolStripMenuItem.Name = "BacktrackingToolStripMenuItem"
-        Me.BacktrackingToolStripMenuItem.Size = New System.Drawing.Size(246, 26)
+        Me.BacktrackingToolStripMenuItem.Size = New System.Drawing.Size(279, 26)
         Me.BacktrackingToolStripMenuItem.Text = "Backtracking | Soduku"
         '
         'BacktrackingNQueenToolStripMenuItem
         '
         Me.BacktrackingNQueenToolStripMenuItem.Name = "BacktrackingNQueenToolStripMenuItem"
-        Me.BacktrackingNQueenToolStripMenuItem.Size = New System.Drawing.Size(246, 26)
+        Me.BacktrackingNQueenToolStripMenuItem.Size = New System.Drawing.Size(279, 26)
         Me.BacktrackingNQueenToolStripMenuItem.Text = "Backtracking | N Queen"
+        '
+        'BacktrackingMapColoringToolStripMenuItem
+        '
+        Me.BacktrackingMapColoringToolStripMenuItem.Name = "BacktrackingMapColoringToolStripMenuItem"
+        Me.BacktrackingMapColoringToolStripMenuItem.Size = New System.Drawing.Size(279, 26)
+        Me.BacktrackingMapColoringToolStripMenuItem.Text = "Backtracking | Map Coloring"
         '
         'FrmMain
         '
@@ -130,4 +137,5 @@ Partial Class FrmMain
     Friend WithEvents CSPToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BacktrackingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BacktrackingNQueenToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BacktrackingMapColoringToolStripMenuItem As ToolStripMenuItem
 End Class
