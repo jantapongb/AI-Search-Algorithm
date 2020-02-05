@@ -143,7 +143,7 @@ Partial Class FrmDijkstra
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "FrmDijkstra"
-        Me.Text = "FrmDijkstra"
+        Me.Text = "Dijkstra Algorithm"
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

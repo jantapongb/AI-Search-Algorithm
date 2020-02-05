@@ -142,7 +142,13 @@
   <data name="MatrixDijkStraGraph" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MatrixDijkStraGraph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AStartGrapExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AStartGrapExample.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MapMatrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MapMatrix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AStartMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AStartMap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

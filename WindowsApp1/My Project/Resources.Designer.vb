@@ -63,6 +63,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property AStartGrapExample() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("AStartGrapExample", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property AStartMap() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("AStartMap", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property DFS_Learnning() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("DFS-Learnning", resourceCulture)

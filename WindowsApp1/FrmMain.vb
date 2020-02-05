@@ -56,4 +56,12 @@
 		FrmMColoring.Show()
 
 	End Sub
+
+	Private Sub ASearchToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ASearchToolStripMenuItem.Click
+
+		Dim FrmAstar = New FrmAStart()
+		FrmAstar.MdiParent = Me
+		FrmAstar.Show()
+
+	End Sub
 End Class
