@@ -8,3 +8,5 @@ Search Algorithm
     - Backtracking | Soduku
     - Backtracking | N Queen
     - Backtracking | Map  Colloring
+    
+** WindowsApp1/bin/Debug/WindowsApp1.exe      '-- Run program compiled
