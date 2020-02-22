@@ -64,4 +64,12 @@
 		FrmAstar.Show()
 
 	End Sub
+
+	Private Sub CryptarithmeticToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CryptarithmeticToolStripMenuItem.Click
+
+		Dim FrmCrypta = New FrmCryptarithmetic
+		FrmCrypta.MdiParent = Me
+		FrmCrypta.Show()
+
+	End Sub
 End Class

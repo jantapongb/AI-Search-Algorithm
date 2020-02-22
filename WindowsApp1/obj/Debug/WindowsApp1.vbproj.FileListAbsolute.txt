@@ -52,3 +52,4 @@ C:\Users\iPong\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Lucene.Net.dll
 C:\Users\iPong\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Lucene.Net.pdb
 C:\Users\iPong\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Lucene.Net.xml
 C:\Users\iPong\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
+C:\Users\iPong\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.FrmCryptarithmetic.resources

@@ -33,6 +33,7 @@ Partial Class FrmMain
         Me.BacktrackingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BacktrackingNQueenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BacktrackingMapColoringToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CryptarithmeticToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -48,7 +49,7 @@ Partial Class FrmMain
         '
         'FIleToolStripMenuItem
         '
-        Me.FIleToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DepthFirstSearchToolStripMenuItem, Me.BreadthFirstSearchToolStripMenuItem, Me.DijkStraSearchToolStripMenuItem, Me.GreedyBestFirstSearchToolStripMenuItem, Me.ASearchToolStripMenuItem, Me.CSPToolStripMenuItem})
+        Me.FIleToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DepthFirstSearchToolStripMenuItem, Me.BreadthFirstSearchToolStripMenuItem, Me.DijkStraSearchToolStripMenuItem, Me.GreedyBestFirstSearchToolStripMenuItem, Me.ASearchToolStripMenuItem, Me.CSPToolStripMenuItem, Me.CryptarithmeticToolStripMenuItem})
         Me.FIleToolStripMenuItem.Name = "FIleToolStripMenuItem"
         Me.FIleToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
         Me.FIleToolStripMenuItem.Text = "File"
@@ -108,6 +109,12 @@ Partial Class FrmMain
         Me.BacktrackingMapColoringToolStripMenuItem.Size = New System.Drawing.Size(279, 26)
         Me.BacktrackingMapColoringToolStripMenuItem.Text = "Backtracking | Map Coloring"
         '
+        'CryptarithmeticToolStripMenuItem
+        '
+        Me.CryptarithmeticToolStripMenuItem.Name = "CryptarithmeticToolStripMenuItem"
+        Me.CryptarithmeticToolStripMenuItem.Size = New System.Drawing.Size(250, 26)
+        Me.CryptarithmeticToolStripMenuItem.Text = "Cryptarithmetic"
+        '
         'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -138,4 +145,5 @@ Partial Class FrmMain
     Friend WithEvents BacktrackingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BacktrackingNQueenToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BacktrackingMapColoringToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CryptarithmeticToolStripMenuItem As ToolStripMenuItem
 End Class
