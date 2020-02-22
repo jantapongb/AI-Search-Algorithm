@@ -8,5 +8,6 @@ Search Algorithm
     - Backtracking | Soduku
     - Backtracking | N Queen
     - Backtracking | Map  Colloring
+  - Cryptarithmetic
     
 ** WindowsApp1/bin/Debug/WindowsApp1.exe      '-- Run program compiled
